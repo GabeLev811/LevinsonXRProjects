@@ -8101,6 +8101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400629017}
+  - component: {fileID: 1400629018}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -8124,6 +8125,23 @@ Transform:
   - {fileID: 589416177}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1400629018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400629016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e05b871e6298d742bcd4ad94760e1ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  objectPrefab: {fileID: 8306567684599742997, guid: bfccd4a184bb1ff47bb4ca61fe7e9c2b, type: 3}
+  spawnPoint: {fileID: 589416177}
+  controllerNode: 5
+  spawnCooldown: 1
+  canSpawn: 1
 --- !u!1 &1410205625
 GameObject:
   m_ObjectHideFlags: 0
@@ -11119,6 +11137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918417463}
+  - component: {fileID: 1918417464}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -11142,6 +11161,23 @@ Transform:
   - {fileID: 757023347}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1918417464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918417462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e05b871e6298d742bcd4ad94760e1ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  objectPrefab: {fileID: 6778276646354868746, guid: 64e9be50a75fdaa4daefb35a0f11b29f, type: 3}
+  spawnPoint: {fileID: 757023347}
+  controllerNode: 5
+  spawnCooldown: 1
+  canSpawn: 1
 --- !u!1 &1921653029
 GameObject:
   m_ObjectHideFlags: 0
