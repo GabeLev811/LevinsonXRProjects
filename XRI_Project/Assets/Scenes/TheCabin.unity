@@ -5539,7 +5539,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4290045977357102, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1290785901}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1318753044608856, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 912631018}
   m_SourcePrefab: {fileID: 100100000, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
 --- !u!4 &912631014 stripped
 Transform:
@@ -5556,6 +5559,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4290045977357102, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
   m_PrefabInstance: {fileID: 912631013}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &912631017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1318753044608856, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+  m_PrefabInstance: {fileID: 912631013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &912631018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912631017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81833987f3d3cfc4585ce3ff9a4dd607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioClipOnStart>k__BackingField: {fileID: 0}
+  <AudioClipOnEnd>k__BackingField: {fileID: 0}
+  featureUsage: 0
+  doorPivot: {fileID: 0}
+  maxAngle: 90
+  reverseAngleDirection: 0
+  doorspeed: 2
+  open: 0
+  MakeKinematicOnOpen: 0
+  socketInteractor: {fileID: 0}
+  simpleInteractable: {fileID: 0}
 --- !u!1 &921391510
 GameObject:
   m_ObjectHideFlags: 0
