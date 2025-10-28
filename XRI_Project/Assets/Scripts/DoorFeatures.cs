@@ -39,7 +39,7 @@ public class DoorFeatures : CoreFeatures
         //s = Shorthand,  SelectEnterEvents
         socketInteractor?.selectEntered.AddListener((s) => //ABSCTRACTION - hiding complexity
         {
-            //OpenDoor();
+            OpenDoor();
             PlayOnStart();
 
         });
@@ -54,11 +54,15 @@ public class DoorFeatures : CoreFeatures
         //Doors with Simple Interactors may not require a "key". Also good for cabinets, drawers...
         simpleInteractable?.selectEntered.AddListener((s) =>
         {
-           //OpenDoor();
+           OpenDoor();
 
         });
+
+        //Testing Only
+        //OpenDoor();
     }
-    
+
+
     public void OpenDoor()
     {
         //If the door is not open, Play the OnStart Sound
@@ -91,7 +95,7 @@ public class DoorFeatures : CoreFeatures
                 //When done with opening, turn off the rigidbody
                 open = false;
                 var featureRigidBody = GetComponent<Rigidbody>();
-                if (featureRigidBody != null && MakeKinematicOnOpen) featureRigidBody.isKinematic =
+                if (featureRigidBody != null && MakeKinematicOnOpen) featureRigidBody.isKinematic = true;
             }
 
                 yield return null;
